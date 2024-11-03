@@ -5,14 +5,14 @@ function printName() {
 }
 
 // TASK 2
-function printAge(birth_year) {
-    age = 2024 - birth_year;
+function printAge(birthYear) {
+    age = 2024 - birthYear;
     console.log(age);
 }
 
 // TASK 3
-function printAgeAndName(birth_year, name) {
-    age = 2024 - birth_year;
+function printAgeAndName(birthYear, name) {
+    age = 2024 - birthYear;
     console.log(`Hello ${name} you are ${age} years old`);
 }
 
@@ -20,15 +20,15 @@ function printAgeAndName(birth_year, name) {
 function printHello(name, language) {
 
     if (language == "en") {
-        print(`Hello ${name}`)
+        console.log(`Hello ${name}`);
     } else if (language == "es") {
-        print(`Hola ${name}`)
+        console.log(`Hola ${name}`);
     } else if (language == "fr") {
-        print(`Bonjour ${name}`)
+        console.log(`Bonjour ${name}`);
     } else if (language == "ts") {
-        print(`Merhaba ${name}`)
+        console.log(`Merhaba ${name}`);
     } else {
-        print("error: language not identified")
+        console.log("error: language not identified");
     }
 }
 
@@ -46,4 +46,4 @@ printName();
 printAge(1967);
 printAgeAndName(1981, "jenan");
 printMax(4, 7);
-printHello('en', "jenan")
+printHello("jenan", 'en');
